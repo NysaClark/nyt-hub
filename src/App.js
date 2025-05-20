@@ -161,6 +161,7 @@ function App() {
       <div id="mobile">
         <div className="gameList">
           <div
+          id="spelling_bee"
             className="gameCard"
             onClick={() => redirect("https://nc-spelling-bee.netlify.app/")}
           >
@@ -170,6 +171,7 @@ function App() {
           </div>
           <div
             className="gameCard"
+            id="connections"
             onClick={() => redirect("https://connections-ofai.onrender.com")}
           >
             <img src={conn_icon} />
@@ -177,6 +179,7 @@ function App() {
             <p className="subtitle">Group words</p>
           </div>
           <div
+          id="wordle"
             className="gameCard"
             onClick={() => redirect("https://wordle-clone-nc.netlify.app/")}
           >
@@ -185,6 +188,7 @@ function App() {
             <p className="subtitle">Untangle terms</p>
           </div>
           <div
+          id="sudoku"
             className="gameCard"
             onClick={() => redirect("https://nc-sudoku.netlify.app/")}
           >

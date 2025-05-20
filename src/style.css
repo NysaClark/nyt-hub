@@ -52,6 +52,20 @@ nav h1 {
   background-color: rgb(205, 205, 205);
   border-radius: 10px;
 }
+#mobile .gameCard#spelling_bee {
+  background-color: #f7da21;
+}
+#mobile .gameCard#wordle {
+  background-color: #e3e3e1;
+}
+#mobile .gameCard#sudoku {
+  background-color: #fb9b00;
+}
+#mobile .gameCard#connections {
+  background-color: #b4a8ff;
+}
+
+
 #mobile .gameCard h3 {
   padding: 0.5rem 0;
 }
